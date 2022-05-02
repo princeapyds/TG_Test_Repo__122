@@ -1,13 +1,12 @@
 # To find if a number is  armstrong?
-numb=9000
+numb=407
 if numb == 0 or numb==1:
     print(f"{numb} is indeed an asrmstrong!")
 else:
-    #numb=str(numb)
-    lista=list(str(numb))
-    expon=(len(lista))
+    numb=str(numb)
+    expon=(len(numb))
     suma=0
-    for i in lista:
+    for i in numb:
         i=int(i)**expon
         suma=suma+i
 
