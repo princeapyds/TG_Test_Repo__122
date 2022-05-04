@@ -1,4 +1,6 @@
+'''
 # checking map fuction
+
 def squares(num):
     return num**2
 
@@ -56,11 +58,24 @@ num_check(a)
 
 a=[3,1,3]
 num_check(a)
-"""
+
 a=[3,1,3]
 print(a.index(3))
 print(a.index(3,1))
+"""
 
 # print(dir (list))
 #print(help( list.index))
 
+
+
+
+a='Mississippi'
+b=" "
+c=" "
+for i in range(len(a)):
+    #print(i)
+    b=a[i]*3
+    c = c+b
+print(c)
+'''
