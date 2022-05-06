@@ -1,6 +1,5 @@
 # SPY GAME: Write a function that takes in a list of integers and returns True if it contains 007 in order
 
-
 def spy_game(a):
     try:
         if a.index(0,0):
